@@ -3,6 +3,9 @@ import Navbar from "./Components/Navbar"
 import About from "./Components/About"
 import TechStack from './Components/TechStack';
 import Education from './Components/Education';
+import Project from './Components/Project';
+import Github from './Components/Github';
+import Contact from './Components/Contact';
 function App() {
   return (
     <div className="App">
@@ -10,6 +13,9 @@ function App() {
       <About/>
       <TechStack/>
       <Education/>
+      <Project/>
+      <Github/>
+      <Contact/>
     </div>
   );
 }

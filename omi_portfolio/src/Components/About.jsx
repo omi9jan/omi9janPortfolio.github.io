@@ -12,14 +12,16 @@ import profilepic from "../Images/profilepic.png";
 
 export default function About() {
   return (
-    <div style={{
-        // border : "2px solid black",
-        padding: "40px",
-        height : "650px",
-        backgroundColor : "grey"
-        }}>
+    // <div style={{
+    //     // border : "2px solid black",
+    //     padding: "40px",
+    //     height : "650px",
+    //     backgroundColor : "grey"
+    //     }}>
             
-        <SimpleGrid columns={1} spacing={10} >
+        <SimpleGrid columns={1} spacing={10}  bgGradient=
+            'linear(to-b, rgb(3, 9, 93), purple.900, purple.800, purple.600, blue.300, blue.200, blue.100, blue.100)' 
+            padding="40px">
             <Heading>About me</Heading>
             <Box>
                 <SimpleGrid columns={2} spacing={0} gap={1} paddingLeft="10%" paddingRight="10%">
@@ -51,6 +53,6 @@ export default function About() {
             </Box>
             
         </SimpleGrid>
-    </div>
+    // </div>
   )
 }

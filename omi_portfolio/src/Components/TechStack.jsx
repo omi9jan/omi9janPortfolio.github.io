@@ -1,10 +1,14 @@
+import { SimpleGrid } from '@chakra-ui/react';
 import React from 'react'
 import Styles from "../Styles/TechStack.css";
 
 
 export default function TechStack() {
     return (
-        <div className='techstack' id='techStack'>
+        <SimpleGrid bgGradient=
+        'linear(to-b, blue.100, orange.100, orange.200, orange.300)' 
+        padding="40px">
+            <div className='techstack' id='techStack'>
             <div className='techstack-heading'>
                 <h1>Technical Skills</h1>
                 <div className='dash'>
@@ -96,5 +100,7 @@ export default function TechStack() {
 
             
         </div>
+        </SimpleGrid>
+        
     )
 }

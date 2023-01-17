@@ -1,5 +1,5 @@
 .techstack{
-    background-color: rgb(233, 204, 204);
+    /* background-color: rgb(233, 204, 204); */
     z-index: 4;
     /* border:2px solid rgb(233, 204, 204); */
     margin-top: -50px;
@@ -14,7 +14,7 @@
 }
 .techstack-heading>h1{
     text-align: center;
-    margin: 50px;
+    margin: 20px;
     font-weight: 600;
     font-size: 50px;
 }
